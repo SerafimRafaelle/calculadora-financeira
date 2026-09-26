@@ -315,7 +315,7 @@ Essas funcionalidades não fazem parte da versão atual.
 
 Para conhecer as decisões técnicas e arquiteturais utilizadas no desenvolvimento:
 
-**[Arquitetura.md](Arquitetura.md)**
+**[Arquitetura.md]([Arquitetura.md](https://github.com/SerafimRafaelle/calculadora-financeira/blob/main/arquitetetura.md))**
 
 ---
 
