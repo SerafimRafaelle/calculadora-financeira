@@ -69,7 +69,7 @@ Centraliza a leitura e validação dos dados fornecidos pelo usuário.
 
 Concentra as regras matemáticas e financeiras utilizadas pelos cálculos.
 
-A documentação detalhada das decisões arquiteturais está disponível em [`Arquitetura.md`](Arquitetura.md).
+A documentação detalhada das decisões arquiteturais está disponível em [`arquitetura.md`](arquitetura.md).
 
 ---
 
@@ -315,7 +315,7 @@ Essas funcionalidades não fazem parte da versão atual.
 
 Para conhecer as decisões técnicas e arquiteturais utilizadas no desenvolvimento:
 
-**[Arquitetura.md]([Arquitetura.md](https://github.com/SerafimRafaelle/calculadora-financeira/blob/main/arquitetetura.md))**
+**[`arquitetura.md`](arquitetura.md)**
 
 ---
 
