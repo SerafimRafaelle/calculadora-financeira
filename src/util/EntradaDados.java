@@ -15,4 +15,14 @@ public class EntradaDados {
 
         return scanner.nextInt();
     }
+
+    public static double lerDecimal() {
+
+        while (!scanner.hasNextDouble()) {
+            System.out.println("Entrada inválida. Digite um número.");
+            scanner.next();
+        }
+
+        return scanner.nextDouble();
+    }
 }
