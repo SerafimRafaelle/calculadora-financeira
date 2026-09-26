@@ -92,7 +92,7 @@ public class Menu {
                     double taxa = EntradaDados.lerDecimal();
 
                     System.out.println("Digite o tempo (meses):");
-                    int meses = EntradaDados.lerInteiro();
+                    int meses = EntradaDados.lerInteiroPositivo();
 
                     double juros = CalculadoraFinanceira.calcularJurosCompostos(
                             capital,
