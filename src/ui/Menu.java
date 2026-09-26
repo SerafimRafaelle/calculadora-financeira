@@ -19,7 +19,34 @@ public class Menu {
 
             opcao = EntradaDados.lerInteiro();
 
-            System.out.println("Você escolheu: " + opcao);
+            switch (opcao) {
+                case 1:
+                    System.out.println("Porcentagem");
+                    break;
+
+                case 2:
+                    System.out.println("Acréscimo percentual");
+                    break;
+
+                case 3:
+                    System.out.println("Desconto percentual");
+                    break;
+
+                case 4:
+                    System.out.println("Juros simples");
+                    break;
+
+                case 5:
+                    System.out.println("Juros compostos");
+                    break;
+
+                case 0:
+                    System.out.println("Encerrando...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+            }
 
         } while (opcao != 0);
     }
