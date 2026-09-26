@@ -60,13 +60,51 @@ public class Menu {
                     break;
                 }
 
-                case 4:{
-                    System.out.println("Juros simples");
+                case 4: {
+                    System.out.println("Digite o capital:");
+                    double capital = EntradaDados.lerDecimal();
+
+                    System.out.println("Digite a taxa mensal (%):");
+                    double taxa = EntradaDados.lerDecimal();
+
+                    System.out.println("Digite o tempo (meses):");
+                    int meses = EntradaDados.lerInteiro();
+
+                    double juros = CalculadoraFinanceira.calcularJurosSimples(
+                            capital,
+                            taxa,
+                            meses
+                    );
+
+                    double montante = capital + juros;
+
+                    System.out.println("Juros: " + juros);
+                    System.out.println("Montante: " + montante);
+
                     break;
                 }
 
-                case 5:{
-                    System.out.println("Juros compostos");
+                case 5: {
+                    System.out.println("Digite o capital:");
+                    double capital = EntradaDados.lerDecimal();
+
+                    System.out.println("Digite a taxa mensal (%):");
+                    double taxa = EntradaDados.lerDecimal();
+
+                    System.out.println("Digite o tempo (meses):");
+                    int meses = EntradaDados.lerInteiro();
+
+                    double juros = CalculadoraFinanceira.calcularJurosCompostos(
+                            capital,
+                            taxa,
+                            meses
+                    );
+
+                    double montante = capital + juros;
+
+                    System.out.println("Juros: " + juros);
+                    System.out.println("Montante: " + montante);
+
                     break;
                 }
 
