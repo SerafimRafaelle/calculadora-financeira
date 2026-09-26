@@ -16,6 +16,22 @@ public class EntradaDados {
         return scanner.nextInt();
     }
 
+    public static int lerInteiroPositivo() {
+
+        int valor;
+
+        do {
+            valor = lerInteiro();
+
+            if (valor <= 0) {
+                System.out.println("Digite um número maior que zero.");
+            }
+
+        } while (valor <= 0);
+
+        return valor;
+    }
+
     public static double lerDecimal() {
 
         while (!scanner.hasNextDouble()) {
@@ -24,5 +40,21 @@ public class EntradaDados {
         }
 
         return scanner.nextDouble();
+    }
+    
+    public static double lerDecimalNaoNegativo() {
+
+    double valor;
+
+    do {
+        valor = lerDecimal();
+
+        if (valor < 0) {
+            System.out.println("Digite um número maior ou igual a zero.");
+        }
+
+    } while (valor < 0);
+
+    return valor;
     }
 }
